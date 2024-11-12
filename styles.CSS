@@ -1,0 +1,17 @@
+* {
+    font-family: 'Times New Roman';
+}
+
+.footer {
+    max-height: 20px;
+}
+
+th {
+    text-align: center;
+}
+
+#table_form {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
