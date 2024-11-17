@@ -3,15 +3,87 @@
 }
 
 .footer {
-    max-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 10px;
 }
 
 th {
     text-align: center;
 }
 
-#table_form {
-    border: 1px solid gray;
-    border-collapse: collapse;
-    margin-bottom: 10px;
+td {
+    text-align: center;
+}
+
+#profile {
+    background-image: url(img/bg-1.jpeg);
+}
+
+#profile_bio {
+    background-image: url(img/bg-1.jpeg);
+}
+
+#ket_beranda, #Biodata {
+    display: flex;
+    color: white;
+    text-align: justify;
+    font-size: small;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ket_beranda img{
+    width: 200px;
+    margin-left: auto;
+    vertical-align: middle;
+}
+
+#ket_beranda table{
+    border: white;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#ket_beranda td{
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+#ket_beranda td p {
+    display: inline; 
+}
+
+i {
+    margin-right: 10px;
+}
+
+#aboutme, #education, #experience, #skill{
+    border: 2px solid black; 
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#Biodata table {
+    border: white;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+#Biodata td {
+    text-align: justify;
+}
+
+#Biodata th {
+    text-align: center;
+}
+
+#BiodataPhoto {
+    width: 200px;
+    height: fit-content;
+    vertical-align: middle;
 }
