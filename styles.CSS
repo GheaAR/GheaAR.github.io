@@ -19,14 +19,14 @@ td {
 }
 
 #profile {
-    background-image: url(img/bg-1.jpeg);
+    background-image: url(img/bg-4.jpeg);
 }
 
 #profile_bio {
-    background-image: url(img/bg-1.jpeg);
+    background-image: url(img/bg-4.jpeg);
 }
 
-#ket_beranda, #Biodata {
+#Biodata {
     display: flex;
     color: white;
     text-align: justify;
@@ -36,16 +36,17 @@ td {
 }
 
 #ket_beranda img{
-    width: 200px;
-    margin-left: auto;
+    width: 300px;
     vertical-align: middle;
+    margin-right: 20px;
 }
 
 #ket_beranda table{
     border: white;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #ket_beranda td{
@@ -58,10 +59,10 @@ td {
 }
 
 i {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
-#aboutme, #education, #experience, #skill{
+#aboutme, #education, #experience, #skill, #contact{
     border: 2px solid black; 
     padding: 10px;
     margin: 10px 0;
@@ -83,7 +84,44 @@ i {
 }
 
 #BiodataPhoto {
-    width: 200px;
+    width: 150px;
     height: fit-content;
     vertical-align: middle;
+    margin-top: 20px;
 }
+
+#ket_beranda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: small;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#email_info, #wa_info, #ig_info, #loc_info {
+    margin-bottom: 5px;
+}
+
+#table_bio td {
+    padding: 10px;
+}
+
+#table_bio td:nth-child(1) {
+    width: 20%;
+}
+
+#table_bio td:nth-child(3) {
+    width: 50%;
+}
+
